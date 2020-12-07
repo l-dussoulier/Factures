@@ -1,0 +1,55 @@
+@page "/factListe"
+@using Facturation
+
+@inject List<Facture> factures;
+
+<h3>Liste des factures</h3>
+
+
+<table class="table">
+        <thead>
+        <tr>
+            <th>Numéro</th>
+            <th>Client</th>
+            <th>Date Emission</th>
+            <th>Date Attendu</th>
+            <th>Montant Dû</th>
+            <th>Montant Réglé</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+        @{
+            float totalDu = 0;
+            float totalRegle = 0;
+        }
+        @foreach (var f in factures)
+
+        {
+            totalDu += f.MontantDu;
+            totalRegle += f.MontantRegle;
+            <tr>
+                <td>@f.numero</td>
+                <td>@f.Client</td>
+                <td>@f.dateEmission</td>
+                <td>@f.dateAttendu</td>
+                <td class="text-right">@f.MontantDu</td>
+                <td class="text-right">@f.MontantRegle</td>
+
+            </tr>
+        }
+        <tr id="total">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Totaux</td>
+            <td class="text-right">@totalDu</td>
+            <td class="text-right">@totalRegle</td>
+        </tr>
+        </tbody>
+    </table>
+
+@code {
+   
+
+}
