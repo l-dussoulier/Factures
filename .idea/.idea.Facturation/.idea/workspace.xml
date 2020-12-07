@@ -4,11 +4,19 @@
     <projectFile>Facturation/Facturation.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db090f2-b0a8-408b-969d-9901c08fdd92" name="Default Changelist" comment="" />
+    <list default="true" id="2db090f2-b0a8-408b-969d-9901c08fdd92" name="Default Changelist" comment="Fist commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Facturation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Facturation/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Facturation/obj/Debug/netstandard2.1/.NETStandard,Version=v2.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -83,8 +91,16 @@
       <option name="presentableId" value="Default" />
       <updated>1607349110701</updated>
       <workItem from="1607349118922" duration="8656000" />
-      <workItem from="1607360445606" duration="324000" />
+      <workItem from="1607360445606" duration="422000" />
     </task>
+    <task id="LOCAL-00001" summary="Fist commit">
+      <created>1607360792981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607360792981</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +110,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Fist commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fist commit" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1750" height="269" key="GridCell.Tab.0.bottom" timestamp="1607360385213">
@@ -112,6 +130,10 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state width="1750" height="269" key="GridCell.Tab.0.right/1792.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1607360385212" />
+    <state x="496" y="309" key="Vcs.Push.Dialog.v2" timestamp="1607360669880">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="496" y="309" key="Vcs.Push.Dialog.v2/1792.25.1920.1055/0.25.1792.1095@0.25.1792.1095" timestamp="1607360669880" />
     <state x="560" y="264" key="run.anything.popup" timestamp="1607352913521">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
